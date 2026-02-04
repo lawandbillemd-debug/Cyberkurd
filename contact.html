@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact - Cyberpkk</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a class="brand" href="index.html">
+        <span class="logo">C</span>
+        <span class="brand-name">Cyberpkk</span>
+      </a>
+
+      <nav class="nav">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link active" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero" style="grid-template-columns:1fr;">
+      <div class="hero-left">
+
+        <div class="pill">Contact</div>
+        <h1>Get in touch</h1>
+        <p class="lead">Choose a way to contact me:</p>
+
+        <section id="instagram" class="card" style="margin-top:14px;">
+          <h3>Instagram</h3>
+          <p>Follow me on Instagram.</p>
+          <a class="btn primary" target="_blank"
+             href="https://instagram.com/c.y.s_kurd">
+            Open Instagram
+          </a>
+        </section>
+
+        <section id="telegram" class="card" style="margin-top:14px;">
+          <h3>Telegram</h3>
+          <p>Chat with me on Telegram.</p>
+          <a class="btn primary" target="_blank"
+             href="https://t.me/LAW_5l">
+            Open Telegram
+          </a>
+        </section>
+
+        <section id="email" class="card" style="margin-top:14px;">
+          <h3>Email</h3>
+          <p>Send me an email.</p>
+          <a class="btn primary"
+             href="mailto:lawandbillemd@gmail.com">
+            Send Email
+          </a>
+        </section>
+
+        <footer class="footer" style="margin-top:20px;">
+          © <span id="year"></span> Cyberpkk
+        </footer>
+
+      </div>
+    </section>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

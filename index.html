@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cyberpkk</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a class="brand" href="index.html">
+        <span class="logo">C</span>
+        <span class="brand-name">Cyberpkk</span>
+      </a>
+
+      <nav class="nav">
+        <a class="nav-link active" href="index.html">Home</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <div class="hero-left">
+        <div class="pill">Linux Mint • Apache • Local Server</div>
+        <h1>Welcome to <span class="accent">Cyberpkk</span> 🚀</h1>
+        <p class="lead">
+          Clean design, fast load, and mobile friendly. Built on Linux + Apache.
+        </p>
+
+        <div class="actions">
+          <a class="btn primary" href="about.html">See About</a>
+          <a class="btn ghost" href="contact.html">Contact</a>
+        </div>
+
+        <div class="stats">
+          <div class="stat">
+            <div class="stat-num">Fast</div>
+            <div class="stat-text">Optimized layout</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">Secure</div>
+            <div class="stat-text">HTTPS ready</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">Responsive</div>
+            <div class="stat-text">Mobile friendly</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="glass-card">
+          <h3>Quick Links</h3>
+          <p>Add your social links here.</p>
+          <div class="mini-actions">
+            <a class="mini" href="contact.html#instagram">Instagram</a>
+            <a class="mini" href="contact.html#telegram">Telegram</a>
+            <a class="mini" href="contact.html#email">Email</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <h3>Fast</h3>
+        <p>Served by Apache on Linux. Lightweight and quick.</p>
+      </article>
+
+      <article class="card">
+        <h3>Secure</h3>
+        <p>Ready for SSL/HTTPS when you publish it online.</p>
+      </article>
+
+      <article class="card">
+        <h3>Professional</h3>
+        <p>Modern UI, smooth animations, clean structure.</p>
+      </article>
+    </section>
+
+    <footer class="footer">
+      © <span id="year"></span> Cyberpkk
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
